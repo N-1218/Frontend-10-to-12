@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        body{
+            height: 1500px;
+            font-family: sans-serif;
+        }
+        /*relatie acts as an anchor box*/
+        .card{
+            position: relative;
+            width: 250px;
+            height: 150px;
+            background-color: lightblue;
+            padding: 30px;
+            margin-top: 50px;
+        }
+        .help-button{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: black;
+            color: white;
+            padding: 10px 15px;
+        }
+
+        .badge{
+            position: sticky;
+            top: 10px;
+            right: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class=" card">
+        <span class="badge"> new</span>
+        <h3>product card</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, delectus!</p>
+        
+    </div>
+    <div class="help-button">Fixed help button</div>
+</body>
+</html>
